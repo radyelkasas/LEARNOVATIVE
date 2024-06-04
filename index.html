@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- BootStrap Css File -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <section id="hero">
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg text-white shadow animate__animated animate__fadeInDown">
+            <div class="container-fluid">
+                <a class="navbar-brand col-3 ms-3" href="#"><img src="Images/Logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars-staggered main-color"></i>
+                </button>
+                <div class="collapse navbar-collapse col-8" id="navbarSupportedContent">
+                    <div
+                        class="d-flex flex-lg-row flex-column gap-lg-3 w-100 gap-5 justify-content-between align-items-center">
+                        <ul class="navbar-nav mb-lg-0 col ps-0 ps-sm-4 w-100 mt-lg-0 mt-sm-3">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link d-flex justify-content-start align-items-center gap-2" href="#"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Explore
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Instructors</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About us</a>
+                            </li>
+                        </ul>
+                        <div class="w-100 ps-0 ps-sm-4">
+                            <div class="d-flex gap-2">
+                                <div class="search-groub">
+                                    <input class="form-control me-2 rounded-pill" id="search" type="search"
+                                        placeholder="search course , topic , Instructors" aria-label="Search">
+                                    <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+                                </div>
+                                <button type="button" class="btn register-btn rounded-pill">Register</button>
+                                <button type="button" class="btn login-btn rounded-pill">Login</button>
+                                <button type="button" class="btn register-btn rounded-circle">ع</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Body Hero Section -->
+        <div class="body py-5 position-relative">
+            <!-- Header -->
+            <div class="header animate__animated animate__fadeInUp">
+                <h1 class="fs-sm-5">Home <p><i class="fa-solid fa-chevron-right"></i> Courses <i
+                            class="fa-solid fa-chevron-right"></i>
+                        English language</p>
+                </h1>
+            </div>
+
+            <div class="container pt-5 mt-5">
+                <div class="row justify-content-lg-between justify-content-sm-center align-items-start gap-5">
+                    <div class="col-lg col-sm-10 vedio position-relative animate__animated animate__fadeInLeft animate__delay-1s">
+                        <div>
+                            <img src="./Images/Vedio.png" width="100%" alt="vedio">
+                            <div class="vedio-play shadow rounded-circle"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="shipe-vedio"><img src="./Images/Shipe.png" width="80px" alt="Shipe"></div>
+                    </div>
+                    <div class="col-lg-4 col-sm-10 details py-5 px-4 text-center shadow animate__animated animate__fadeInRight animate__delay-1s">
+                        <h1 class="price">$ 500</h1>
+                        <span class="line-underPrice"></span>
+                        <div class="d-flex justify-content-between gap-4">
+                            <div class="d-flex gap-2">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                <p>Instructor</p>
+                            </div>
+                            <p>Ola Amr</p>
+                        </div>
+                        <span class="line-under"></span>
+                        <div class="d-flex justify-content-between gap-4">
+                            <div class="d-flex gap-2">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                <p>Duration</p>
+                            </div>
+                            <p>12 h 15 min</p>
+                        </div>
+                        <span class="line-under"></span>
+                        <div class="d-flex justify-content-between gap-4">
+                            <div class="d-flex gap-2">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                <p>Lecture</p>
+                            </div>
+                            <p>35</p>
+                        </div>
+                        <span class="line-under"></span>
+                        <div class="d-flex justify-content-between gap-4">
+                            <div class="d-flex gap-2">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                <p>level</p>
+                            </div>
+                            <p>Advance</p>
+                        </div>
+                        <span class="line-under"></span>
+                        <div class="d-flex justify-content-between gap-4">
+                            <div class="d-flex gap-2">
+                                <span><i class="fa-solid fa-check"></i></span>
+                                <p>Certificate</p>
+                            </div>
+                            <p>yes</p>
+                        </div>
+                        <button type="button"
+                            class="btn btn-primary rounded-pill px-5 py-2 text-uppercase fw-bold mt-5">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Details Section -->
+    <section class="animate__animated animate__slideInUp animate__delay-1s" id="details">
+        <!-- About -->
+        <div class="container py-5 mt-5">
+            <div class="row align-items-start">
+                <div class="col-lg-10 col-sm-12">
+                    <div>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <h1 class="main-color fs-3 fw-bolder">All about English & Business</h1>
+                            <p class="english"><span></span>English</p>
+                        </div>
+                        <p class="fw-medium opacity-50 py-4">Get involved in any kind of business conversation in
+                            English in addition to learning soft
+                            skills that are required in a work day.</p>
+                    </div>
+                    <div>
+                        <h1 class="main-color fs-3 fw-bolder">Desciption</h1>
+                        <p class="fw-medium opacity-50 py-4 ">If you are seeking to improve your English language skills
+                            and develop your abilities in a
+                            practical environment, then the “All about Business English ” course is best suited for you.
+                            English is the global language of business, and many jobs and professional fields require it
+                            in the modern era. This distinguished course aims to provide you with a comprehensive set of
+                            language skills, vocabulary, and effective communication in a practical environment. </p>
+                    </div>
+                    <div>
+                        <h1 class="main-color fs-3 fw-bolder">Desciption</h1>
+                        <ul class="list-group d-flex w-100 flex-wrap flex-row mt-4">
+                            <li class="list-group-item border-0"><button
+                                    class="btn btn-primary rounded-pill px-5 fw-bold">lesson
+                                    1</button></li>
+                            <li class="list-group-item border-0"><button
+                                    class="btn btn-link link-underline-light rounded-pill px-5 fw-bold">lesson
+                                    2</button></li>
+                            <li class="list-group-item border-0"><button
+                                    class="btn btn-link link-underline-light rounded-pill px-5 fw-bold">lesson
+                                    3</button></li>
+                            <li class="list-group-item border-0"><button
+                                    class="btn btn-link link-underline-light rounded-pill px-5 fw-bold">lesson
+                                    4</button></li>
+                        </ul>
+                        <div
+                            class="d-flex flex-lg-row flex-sm-column align-items-center justify-content-between gap-4 py-5">
+                            <div class="lesson-video animate__animated animate__fadeInLeft"><img src="Images/lesson1.png" width="100%" alt="lesson1">
+                                <div class="video-play shadow-lg rounded-circle"><i
+                                        class="main-color fa-solid fa-play"></i></div>
+                            </div>
+                            <div class="animate__animated animate__fadeInRight">
+                                <h1 class="main-color fs-4 fw-medium">lesson 1</h1>
+                                <p>If you are seeking to improve your English language skills and develop your abilities
+                                    in a practical environment, then the “All about Business....</p>
+                                <h1 class="main-color fs-4 fw-medium py-3">Free Session</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-12 d-flex flex-column align-items-center justify-content-center">
+                    <img src="./Images/NoPath.png" width="100px" alt="teacher">
+                    <p class="main-color fw-bolder pt-3 pb-1">Doc . Ola Akram</p>
+                    <p class="detail-teacher">UN Special Envoy on Financing</p>
+                    <div class="detail-content fw-medium opacity-50">
+                        <div class="d-flex align-items-center gap-1">
+                            <span></span>
+                            <p class="m-0">15 course</p>
+                        </div>
+                        <div class="d-flex align-items-center gap-1">
+                            <span></span>
+                            <p class="m-0">168 Student</p>
+                        </div>
+                    </div>
+                    <div class="mt-3 bt-groub"><button class="btn btn-primary"><i
+                                class="fa-brands fa-facebook-f"></i></button>
+                        <button class="btn btn-primary"><i class="fa-brands fa-instagram"></i></button>
+                        <button class="btn btn-primary"><i class="fa-brands fa-twitter"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row align-items-start justify-content-space-between text-white">
+                <div class="col-lg-4 col-sm-12 mt-5">
+                    <img class="mb-4" src="./Images/LogoFooter.png" width="100%" alt="logo">
+                    <p class="fw-light">In today's globalized business environment, language learning has become a
+                        crucial element of
+                        professional development. As companies increasingly operate across borders</p>
+                    <div class="d-flex align-items-center justify-content-around w-lg-100 w-sm-50 fs-4 ">
+                        <span><i class="fa-brands fa-whatsapp"></i></span>
+                        <span><i class="fa-brands fa-instagram"></i></span>
+                        <span><i class="fa-brands fa-snapchat"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg col-sm-6 mt-5">
+                    <ul class="list-group">
+                        <li class="list-group-item bg-transparent border-0 text-white fw-bolder"><a
+                                class="text-white link-underline-opacity-0" href="#">About</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 text-white fw-bolder"><a
+                                class="text-white link-underline-opacity-0" href="#">Press</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 text-white fw-bolder"><a
+                                class="text-white link-underline-opacity-0" href="#">Team</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 text-white fw-bolder"><a
+                                class="text-white link-underline-opacity-0" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg col-sm-6 mt-5">
+                    <ul class="list-group">
+                        <li class="list-group-item bg-transparent border-0 text-white fw-bolder"><a
+                                class="text-white link-underline-opacity-0" href="#">language</a></li>
+                        <li class="list-group-item bg-transparent border-0 text-white fw-bolder"><a
+                                class="text-white link-underline-opacity-0" href="#">Courses</a>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 text-white fw-bolder"><a
+                                class="text-white link-underline-opacity-0" href="#">Instructors</a></li>
+                        <li class="list-group-item bg-transparent border-0 text-white fw-bolder"><a
+                                class="text-white link-underline-opacity-0" href="#">Subscription Plans</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg col-sm-12 mt-5">
+                    <h1 class="bg-transparent border-0 text-white fw-bolder fs-3">Soon</h1>
+                    <ul class="list-group">
+                        <li class="list-group-item bg-transparent border-0"><img src="./Images/Google Play.png"
+                                alt="Google Play"></li>
+                        <li class="list-group-item bg-transparent border-0"><img src="./Images/App Store.png"
+                                alt="App Store"></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="text-center pb-sm-5 pb-lg-2 m-0 fw-semibold text-white opacity-50">all copy rights 2024</p>
+        </div>
+    </footer>
+
+    <!--  -->
+    <script src="https://kit.fontawesome.com/17d10e6c40.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
